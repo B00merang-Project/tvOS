@@ -769,32 +769,34 @@ view image:selected:hover {
 .floating-bar {
     border-width: 1px;
     border-style: solid;
-    border-color: shade(@theme_bg_color, 0.85);
+    border-color: shade(@theme_base_color, 0.85);
     border-radius: 4px;
-    background-color: @theme_bg_color;
+    background-color: @theme_base_color;
     background-image: none;
     color: @theme_fg_color;
 }
 
-.floating-bar top {
+.floating-bar.top {
     border-top-width: 0px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
 }
 
-.floating-bar right {
+.floating-bar.top.right,
+.floating-bar.bottom.right {
     border-right-width: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
 
-.floating-bar bottom {
+.floating-bar.bottom {
     border-bottom-width: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
 
-.floating-bar left {
+.floating-bar.top.left,
+.floating-bar.bottom.left {
     border-left-width: 0px;
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0px;
