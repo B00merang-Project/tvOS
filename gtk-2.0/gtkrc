@@ -1,6 +1,14 @@
 # Bridge | ScionicSpectre | Elbullazul
 
-gtk-color-scheme = "base_color:#FFFFFF\nfg_color:#313739\ntooltip_fg_color:#4c4c4c\nselected_bg_color:#3b82d6\nselected_fg_color:#FFFFFF\ntext_color:#4c4c4c\nbg_color:#F5F5F5\ninsensitive_bg_color:#F4F4F2\ntooltip_bg_color:#ffffff"
+gtk-color-scheme = "bg_color:#fcfcfc"
+gtk-color-scheme = "fg_color:#000000"
+gtk-color-scheme = "base_color:#FFFFFF"
+gtk-color-scheme = "text_color:#000000"
+gtk-color-scheme = "selected_bg_color:#bababa"
+gtk-color-scheme = "selected_fg_color:#000000"
+gtk-color-scheme = "tooltip_bg_color:#ffffff"
+gtk-color-scheme = "tooltip_fg_color:#000000"
+gtk-color-scheme = "insensitive_bg_color:#F4F4F2"
 
 gtk-auto-mnemonics              = 1
 gtk-primary-button-warps-slider = 1
